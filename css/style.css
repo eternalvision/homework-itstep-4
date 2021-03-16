@@ -1,0 +1,118 @@
+:root {
+    --nav-bg-color: #456c35;
+    --nav-text-color: #fbfdfc;
+    --nav-text-hover: #acc38b;
+    --math-color: #7a3a10be;
+
+    --bg-color: #606c88;
+
+    --main-cubic: cubic-bezier(.17, .67, .83, .67);
+
+    --shadow-main: 5px 9px 20px rgb(0 0 0 / 15%);
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+body {
+    background-image: url("/img/goal-soccer.jpg");
+    background-repeat:no-repeat ;
+
+    padding-bottom: 10px;
+}
+a {
+    text-decoration: none;
+    color: var(--nav-text-color);
+    transition: color 250ms var(--main-cubic);
+}
+a:hover {
+    color: var(--nav-text-hover);
+}
+.active {
+    color: var(--nav-text-hover);
+}
+.section {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+/* NAV */
+.nav-menu {
+    background-color: var(--nav-bg-color);
+    box-shadow: var(--shadow-main);
+
+    list-style: none;
+    display: flex;
+
+    margin-top: 10px;
+
+    height: 70px;
+
+    text-align: center;
+    align-items: center;
+}
+.nav-menu li {
+    display: block;
+
+    font-size: 25px;
+    font-weight: 400;
+
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+
+    font-weight: 400;
+    margin-left: 49px;
+}
+
+/* Footbal */
+.main{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #456c35be;
+}
+.main-title{
+    display: block;
+    font-size: 70px;
+    font-weight: 450;
+    padding-bottom: 10px;
+    color:var(--nav-text-color);
+    text-align: center;
+}
+.spain{
+    display: block;
+    font-size: 40px;
+    font-weight: 400;
+        margin-left: 10px;
+}
+/* .spain::before{
+    content:'';
+    display: inline-block;
+    border:1px solid black;
+    background-image:url("/img/command/spain.png");
+    height: 569px;
+    width: 420px;
+    background-position: center;
+    background-repeat: no-repeat ;
+} */
+.foot-command{
+display: inline-block;
+}
+.spain-flag{
+    width: 100px;
+    margin-left: 20px;
+}
+.spain-command{
+    display: block;
+    margin-left: 20px;
+}
+.spain-command li{
+    font-size: 20px;
+    margin-left: 20px;
+    list-style-image: url("/img/football.svg#football");
+    background-repeat:no-repeat;
+
+}
