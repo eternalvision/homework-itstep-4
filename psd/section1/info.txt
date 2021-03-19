@@ -1,0 +1,9 @@
+Font: Exo Medium
+Over-title-color: #e16d6d
+Title-color: #2c2c2c
+Under-title-color: #757575
+
+
+width: 600px
+height: 724px
+Right-element: #ececec/#e38686

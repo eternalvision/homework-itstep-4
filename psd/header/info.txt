@@ -1,0 +1,10 @@
+Font: Exo Regular
+color: #2c2c2c
+
+Under-button-color: #79797b
+
+Button-bg-color: #e16d6d
+button-width: 190px
+button-height: 626px
+
+Under-button-text-color: #79797b

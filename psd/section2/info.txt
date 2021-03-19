@@ -1,0 +1,6 @@
+Font: Exo Medium
+color: #2c2c2c
+
+Button-bg-color: #e16d6d
+Under-button-color: #79797b
+Video-playback-color: #8588a2
